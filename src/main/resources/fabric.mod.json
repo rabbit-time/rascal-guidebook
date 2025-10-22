@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "rascal-guidebook",
+  "version": "${version}",
+  "name": "Rascal's Field Guide",
+  "description": "A simple guidebook written for Rascal Modpack",
+  "authors": ["Rascal"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/rascal/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "click.rascal.rascalGuidebook.client.RascalGuidebookDataGenerator"
+    ],
+    "client": [
+      "click.rascal.rascalGuidebook.client.RascalGuidebookClient"
+    ],
+    "main": [
+      "click.rascal.rascalGuidebook.RascalGuidebook"
+    ]
+  },
+  "depends": {
+    "lavender": ">=0.1.14",
+    "owo-lib": ">=0.12.10",
+    "fabricloader": ">=${loader_version}",
+    "fabric-language-kotlin": ">=${kotlin_loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "keys": {
+    "w": "minecraft:stripped_oak_log",
+    "a": "comforts:rope_and_nail[facing=west,supporting=true]",
+    "b": "comforts:rope_and_nail[facing=east,supporting=true]",
+    "h": "minecraft:white_carpet"
+  },
+  "layers": [
+    ["w____w"],
+    ["wbhhaw"]
+  ]
+}

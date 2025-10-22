@@ -1,0 +1,3 @@
+tiny	2	0	intermediary	named
+c	io/github/mortuusars/exposure/world/block/LightroomBlock	io/github/mortuusars/exposure/world/block/LightroomBlock
+m	io/github/mortuusars/exposure/world/block/LightroomBlock	method_10123	(Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;)Lnet/minecraft/class_2586;	createExposureBlockEntity
