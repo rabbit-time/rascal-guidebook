@@ -1,13 +1,13 @@
 ```json
 {
   "title": "Slime Amulet",
-  "icon": "minecraft:oak_door",
+  "icon": "rascal:slime_amulet",
   "category": "rascal:beyond_the_frontier"
 }
 ```
 
 The {blue}Slime Amulet{} is used for locating {green}slime chunks{} within the world.
 
-<recipe;minecraft:oak_door>
+<recipe;rascal:slime_amulet>
 
-The amulet will light up when in a slime chunk.
+When holding, the amulet will light up and produce a sound when entering a slime chunk.
