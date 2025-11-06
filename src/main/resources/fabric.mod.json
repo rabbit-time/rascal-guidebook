@@ -8,7 +8,7 @@
   "contact": {},
   "license": "MIT",
   "icon": "assets/rascal/icon.png",
-  "environment": "client",
+  "environment": "*",
   "entrypoints": {
     "fabric-datagen": [
       "click.rascal.rascalGuidebook.client.RascalGuidebookDataGenerator"
